@@ -1,0 +1,16 @@
+{
+  "name": "social-connect",
+  "version": "0.1.0",
+  "description": "Build social media platforms for connecting communities",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "lint": "npm run lint --workspaces"
+  }
+}
